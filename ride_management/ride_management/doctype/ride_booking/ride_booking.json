@@ -1,0 +1,131 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-10-18 17:19:23.934662",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "vehicle",
+  "type",
+  "estimated_km",
+  "column_break_eyss",
+  "make",
+  "price_per_km",
+  "section_break_bnqe",
+  "table_yvyf",
+  "section_break_ilrz",
+  "total_amount",
+  "customer_name",
+  "booking_date",
+  "column_break_avva",
+  "customer",
+  "phone_number",
+  "return_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "vehicle",
+   "fieldtype": "Link",
+   "label": "Vehicle",
+   "options": "Vehicle Ride"
+  },
+  {
+   "fieldname": "type",
+   "fieldtype": "Data",
+   "label": "Type"
+  },
+  {
+   "fieldname": "estimated_km",
+   "fieldtype": "Float",
+   "label": "Estimated Km"
+  },
+  {
+   "fieldname": "column_break_eyss",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "make",
+   "fieldtype": "Data",
+   "label": "Make"
+  },
+  {
+   "fieldname": "price_per_km",
+   "fieldtype": "Data",
+   "label": "Price Per Km"
+  },
+  {
+   "fieldname": "section_break_bnqe",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "table_yvyf",
+   "fieldtype": "Table",
+   "label": "Services",
+   "options": "Ride Add On"
+  },
+  {
+   "fieldname": "section_break_ilrz",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "Total Amount",
+   "read_only": 1
+  },
+  {
+   "fieldname": "customer_name",
+   "fieldtype": "Data",
+   "label": "Customer Name"
+  },
+  {
+   "fieldname": "booking_date",
+   "fieldtype": "Date",
+   "label": "Booking Date"
+  },
+  {
+   "fieldname": "column_break_avva",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "customer",
+   "fieldtype": "Link",
+   "label": "Customer",
+   "options": "Customer"
+  },
+  {
+   "fieldname": "phone_number",
+   "fieldtype": "Int",
+   "label": "Phone Number"
+  },
+  {
+   "fieldname": "return_date",
+   "fieldtype": "Date",
+   "label": "Return Date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-10-18 17:29:48.452736",
+ "modified_by": "Administrator",
+ "module": "Ride Management",
+ "name": "Ride Booking",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
